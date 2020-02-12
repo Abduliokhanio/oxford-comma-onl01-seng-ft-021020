@@ -1,3 +1,16 @@
 def oxford_comma(array)
-  return array.join(' and ')
+  array2 = []
+
+  if array.length == 1
+    puts array.join()
+  else 
+  second_2_last = array.length - 1
+  count = 0
+  while count != second_2_last
+      array2.push(array[count])
+      count += 1
+  end
+  str_1 = array2.join(', ')
+  puts str_1 + " and #{array.last}"
+end
 end
