@@ -15,7 +15,7 @@ def oxford_comma(array)
       count += 1
   end
   str_1 = array2.join(', ')
-  return str_1 + " and #{array.last}"
+  return str_1 + ", and #{array.last}"
 end
 end
 end
